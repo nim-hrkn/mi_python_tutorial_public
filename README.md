@@ -1,53 +1,69 @@
 
-Copyright (C), Hiori Kino, 2017-2023 
+Copyright (C), Hiori Kino, 2017-2025
 
 Apache License Version 2.0（「本ライセンス」）に基づいてライセンスされます。あなたがこのファイルを使用するためには、本ライセンスに従わなければなりません。本ライセンスのコピーは下記の場所から入手できます。
 
 http://www.apache.org/licenses/LICENSE-2.0
 
+# 重要：以下で不明点はLLMに尋ねてください。
+Python環境はインターネット上に例が多くあり、回答はほぼ正確です。
+
+# 本レポジトリについて
+本レポジトリは各自のPCにPython環境をインストールして使用することを想定していますが、
+独自にPython3環境を構築して様々なライブラリをinstallしたを構築しても問題ありません。
 
 
 # Python環境の構築
 
-本スクリプトはubuntu 22.04.3, Anaconda 2023-09 Linux-x86_64版で動作確認をしています。
+本スクリプトはWindows11上でVirtualBox上のubuntu 20.04.4, Anaconda Linux-x86_64版で動作確認をしています。
 
+## Anaconda
 
-各自のPCにPython環境をインストールして使用することを想定しています。
-独自に様々なライブラリをinstallしたPython3環境を構築しても問題ありません。
+condaコマンドでパッケージ管理をする主要なAnaconda系ディストリビューションには以下があります。
 
-# 最近のAnacondaのライセンス
+* **Anaconda**：Pythonと科学計算用ライブラリが最初から多数入った「全部入り」ディストリビューション。そのため追加パッケージインストールにかなり時間がかかることがある。初心者向けだが、商用利用には制限あり。
+* **Miniconda**：Anacondaの最小構成版。必要なパッケージだけを自分で`conda install`して構築。商用制限はAnacondaと同じ。
+* **Miniforge**：conda-forgeコミュニティ提供の完全オープン版。商用利用も含めて無料で、最初から`conda-forge`チャンネルを使用。
 
-https://legal.anaconda.com/policies/en/?name=terms-of-service
+### 最近のAnacondaのライセンス
 
-FREE - For Non-Commercial Personal, Educational, Open Source, and Small Business Use
-とあり、教育機関の学生または職員が教育活動に関連して使用する場合は無償で利用できるはずです。
-しかし、変更される場合がありますので、Anaconda 2023-09以降の版を利用する場合はご確認ください。
+Anaconda Distributionは完全に無料ではありません。
+2025年10月15日現在、以下の利用規約ページに詳細が記載されています：
 
+https://www.anaconda.com/legal/terms/terms-of-service
 
-## Anacondaのインストール
+該当箇所は “When Your Use is Free.” の節です。
+各自の所属、立場（大学・研究機関・企業など）が無料利用の条件に該当するかを確認してください。
 
-Anaconda(64 bit)を用い場合は以下からダウンロードできます。
+補足：
+標準でインストールされるPython本体だけでなく、Anaconda Repository上で提供されている標準的なPythonパッケージ群も有用です。
+
+### Anacondaのインストール
+
+Anaconda(64 bit)を用いる場合は以下からダウンロードできます。
 
 https://www.anaconda.com/download
 
-そして、ダウンロードしたファイルをインストールしてください。
 
+## 無料環境を利用したい場合
+
+無料で環境を構築する場合は、ある程度のPython環境構築の知識が必要です。
+ここでは詳細な手順の説明は省略します。  
+
+### Anaconda系ディストリビューションを使う場合
+
+無料で利用できるAnaconda代替として「Miniforge」を推奨します。
+
+🔗 https://github.com/conda-forge/miniforge
+
+Miniforge は、初期状態で conda-forgeチャンネル（オープンソースリポジトリ） のみを参照するため、
+商用・教育・個人利用を問わず 完全に無料 で使用できます。
+condaコマンドを用いて追加packageをインストールすることで、Miniconda/Anacondaとほぼ同等の環境構築が可能です。
 
 ## 追加インストール
 
 Anacondaはcondaを用いて追加パッケージをインストールできますが、
-以下は本授業で動作させる目的のため、簡単にインストールできるpipを用いたインストール法を示します。
-
-### threadpoolctl
-
-Anaconda 2023-09のままではkmeansが動きません。threadpoolctlのupdateを行ってください。
-```
-pip install -U threadpoolctl>=3.2.0
-```
-
-ref.
-https://github.com/scikit-learn/scikit-learn/issues/27391
-
+以下は本講義で動作させる目的のため、簡単にインストールできるpipを用いたインストール法を示します。
 
 ### pymatgen
 
@@ -56,7 +72,7 @@ pip install pymatgen
 ```
 
 ref. https://pymatgen.org/installation.html
-はMiniconda(Anacondaとは違う）を用いる場合のinstall法が書いてありますがAnacondaの場合も参考になります。
+はMinicondaを用いる場合のinstall法が書いてありますがAnacondaの場合も参考になります。
 
 ### progressbar2
 
@@ -70,6 +86,7 @@ pip install mlxtend
 ```
 ref. https://rasbt.github.io/mlxtend/installation/
 
+
 ## jupyter labの動かし方
 
 以下に説明があります。
@@ -82,16 +99,11 @@ https://www.youtube.com/watch?v=WIw_xR6zFjs
 
 ## 大規模言語モデル例
 
-- OpenAI ChatGPT: https://openai.com/chatgpt
+- OpenAI ChatGPT
 
-ChatGPTなどのOpenAIのサービスで入力を学習させないためにはこちらから申請してください。
-OpenAI Privacy Request Portal https://privacy.openai.com/policies
+- Microsoft copilot
 
-- Microsoft copilot: https://copilot.microsoft.com/
-
-- Google Bard: https://bard.google.com/
-
-- ANTHROP\C Claude https://www.anthropic.com/index/claude-2-1
+- ANTHROP\C Claude
 
 
 -----
@@ -99,7 +111,5 @@ OpenAI Privacy Request Portal https://privacy.openai.com/policies
 # 参考文献
 
 - 「Orange Data Miningではじめるマテリアルズインフォマティクス」木野 日織/ダム，ヒョウ・チ
-- 「Pythonではじめるマテリアルズインフォマティクス」木野 日織/ダム，ヒョウ・チ
-- https://bitbucket.org/kino_h/orange_mi_seminar_2023/src/main/ スライド、youtune動画へのリンクあり。
-- https://bitbucket.org/kino_h/python_mi_seminar_2023/src/master/ スライド、youtub動画へのリンクあり。
+- 「改訂版Pythonではじめるマテリアルズインフォマティクス-ChatGPTを活用しよう」木野 日織/ダム，ヒョウ・チ
 
