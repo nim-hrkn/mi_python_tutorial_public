@@ -67,25 +67,23 @@ Anacondaはcondaを用いて追加パッケージをインストールできま�
 
 ### pymatgen
 
-```
-pip install pymatgen
-```
+以下を参照
 
-ref. https://pymatgen.org/installation.html
-はMinicondaを用いる場合のinstall法が書いてありますがAnacondaの場合も参考になります。
+https://pymatgen.org/installation.html
 
-### progressbar2
+Minicondaを用いる場合のinstall法が書いてありますがAnacondaの場合も参考になります。
 
-```
-pip install progressbar2
-```
 
-### mlxtend
-```
-pip install mlxtend
-```
-ref. https://rasbt.github.io/mlxtend/installation/
+### pytorch
 
+以下を参照
+
+https://pytorch.org/get-started/locally/
+
+
+### 他のpackage
+
+各スクリプトに必要パッケージが記載してあります。
 
 ## jupyter labの動かし方
 
