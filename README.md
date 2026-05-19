@@ -1,5 +1,5 @@
 
-Copyright (C), Hiori Kino, 2017-2025
+Copyright (C), Hiori Kino, 2017-2026
 
 Apache License Version 2.0（「本ライセンス」）に基づいてライセンスされます。あなたがこのファイルを使用するためには、本ライセンスに従わなければなりません。本ライセンスのコピーは下記の場所から入手できます。
 
@@ -15,14 +15,13 @@ Python環境はインターネット上に例が多くあり、回答はほぼ�
 
 # Python環境の構築
 
-本スクリプトはWindows11上でVirtualBox上のubuntu 20.04.4, Anaconda Linux-x86_64版で動作確認をしています。
+本スクリプトはWindows11上でVirtualBox上のubuntu 20.04.4, Miniforge-x86_64版で動作確認をしています。
 
 ## Anaconda
 
 condaコマンドでパッケージ管理をする主要なAnaconda系ディストリビューションには以下があります。
 
 * **Anaconda**：Pythonと科学計算用ライブラリが最初から多数入った「全部入り」ディストリビューション。そのため追加パッケージインストールにかなり時間がかかることがある。初心者向けだが、商用利用には制限あり。
-* **Miniconda**：Anacondaの最小構成版。必要なパッケージだけを自分で`conda install`して構築。商用制限はAnacondaと同じ。
 * **Miniforge**：conda-forgeコミュニティ提供の完全オープン版。商用利用も含めて無料で、最初から`conda-forge`チャンネルを使用。
 
 ### 最近のAnacondaのライセンス
@@ -62,8 +61,12 @@ condaコマンドを用いて追加packageをインストールすることで�
 
 ## 追加インストール
 
-Anacondaはcondaを用いて追加パッケージをインストールできますが、
-以下は本講義で動作させる目的のため、簡単にインストールできるpipを用いたインストール法を示します。
+Anacondaはcondaを用いて追加パッケージをインストールできます。
+
+### 重要事項
+
+** scikit-learnのクラス関数が大きく変更されています。
+version 1.8.0にて動作確認しています。**
 
 ### pymatgen
 
@@ -71,7 +74,7 @@ Anacondaはcondaを用いて追加パッケージをインストールできま�
 
 https://pymatgen.org/installation.html
 
-Minicondaを用いる場合のinstall法が書いてありますがAnacondaの場合も参考になります。
+condaを用いる場合のinstall法が書いてあります。
 
 
 ### pytorch
@@ -103,6 +106,9 @@ https://www.youtube.com/watch?v=WIw_xR6zFjs
 
 - ANTHROP\C Claude
 
+- Google Gemini
+
+など
 
 -----
 
