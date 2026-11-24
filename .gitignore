@@ -49,6 +49,7 @@ Thumbs.db
 *.wmv
 
 **/.ipynb_checkpoints/
+tmp/
 
 /AGENTS.md
 **/junk/**/*.ipynb

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linear-equation-sft"
+version = "0.1.0"
+description = "Unsloth QLoRA tutorial for linear-equation question answering"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "datasets==4.8.5",
+    "huggingface-hub==1.33.0",
+    "torch==2.14.1",
+    "transformers==5.17.0",
+    "trl==1.15.0",
+    "unsloth==2026.11.10",
+]
+
+[tool.setuptools]
+py-modules = ["download_model", "experiment", "generate_data", "score"]

@@ -1,0 +1,100 @@
+{"messages": [{"role": "user", "content": "Solve for x: -8x - 22 = 2.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -3"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -7x + 20 = -120.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 20"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -x + 29 = 6x - 41.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 10"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -x + 22 = 6x - 76.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 14"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -10x + 7 = -133.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 14"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -9x + 12 = -5x + 72.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -15"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 8x - 22 = -14.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 1"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -7x + 5 = 11x + 5.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 0"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 7x - 22 = -10x + 80.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 6"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 3x + 26 = 20.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -2"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -4x - 18 = 26.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -11"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 10x - 23 = 12x - 55.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 16"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -6x - 21 = 9x - 126.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 7"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -x - 6 = -5x + 42.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 12"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 11x + 18 = -15.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -3"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -2x - 18 = -6x - 74.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -14"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 7x - 6 = -34.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -4"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -4x + 21 = -35.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 14"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -5x + 15 = -10x + 115.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 20"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -5x + 11 = -84.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 19"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -5x - 24 = 31.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -11"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 12x - 10 = -214.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -17"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 9x + 11 = 12x + 47.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -12"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 12x + 20 = -8x + 100.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 4"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -9x - 19 = 3x + 113.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -11"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -5x + 17 = 27.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -2"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 5x + 19 = 2x + 49.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 10"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 2x - 22 = -44.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -11"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -5x + 19 = -76.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 19"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 2x + 12 = -18.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -15"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 2x + 14 = 54.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 20"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -12x - 20 = 11x - 480.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 20"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -2x - 13 = 2x + 63.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -19"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -10x + 8 = 98.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -9"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 4x + 28 = -7x + 182.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 14"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -11x + 9 = 8x + 218.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -11"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 4x - 5 = 7x - 59.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 18"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 4x - 29 = -29.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 0"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -10x + 27 = -53.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 8"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 3x + 21 = -9x + 153.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 11"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -7x - 22 = -71.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 7"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 7x + 9 = 10x - 30.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 13"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -9x + 21 = -51.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 8"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -6x - 14 = -110.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 16"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 5x + 27 = 7x + 63.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -18"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -2x + 11 = -3x + 9.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -2"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 8x + 10 = -5x + 10.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 0"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 5x + 14 = -2x + 42.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 4"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 9x - 18 = 126.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 16"}]}
+{"messages": [{"role": "user", "content": "Solve for x: x - 12 = -12x - 12.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 0"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 2x - 29 = -65.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -18"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -3x - 17 = -12x - 8.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 1"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 4x - 2 = -66.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -16"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -10x - 22 = 88.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -11"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 10x + 13 = -7.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -2"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 6x - 9 = -7x - 126.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -9"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 10x - 16 = 5x - 71.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -11"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -9x + 3 = -69.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 8"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 12x - 24 = -9x - 339.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -15"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 8x + 17 = 65.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 6"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -2x - 13 = -27.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 7"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -8x - 27 = -123.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 12"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 10x - 17 = -3x - 264.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -19"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 10x + 15 = 165.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 15"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 5x + 14 = 2x - 4.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -6"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 12x - 27 = 81.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 9"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -11x - 16 = -5.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -1"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 10x - 25 = -4x + 129.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 11"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -9x - 29 = -209.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 20"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 10x + 8 = 18.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 1"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 12x - 27 = 57.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 7"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 4x + 29 = -15.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -11"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -5x - 14 = -12x - 14.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 0"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -2x - 13 = 3x - 13.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 0"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 12x + 18 = -11x + 340.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 14"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 12x = 0.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 0"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 7x - 13 = 43.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 8"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 9x - 3 = 10x + 6.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -9"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 11x + 22 = -2x - 238.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -20"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 2x + 23 = -8x - 177.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -20"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -7x + 21 = 21.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 0"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 9x + 1 = -10x + 305.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 16"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 8x - 13 = -8x + 211.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 14"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 10x + 16 = 156.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 14"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 11x + 7 = 8x - 53.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -20"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -3x + 14 = -34.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 16"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -3x = -10x + 140.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 20"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 10x + 4 = 12x - 14.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 9"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -8x - 13 = -133.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 15"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -11x + 30 = -124.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 14"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -x + 14 = 13.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 1"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -7x + 16 = -8x + 18.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 2"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 2x + 21 = 23.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 1"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -3x - 7 = 47.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -18"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -10x - 18 = -4x - 6.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -2"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 6x - 21 = 33.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 9"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 9x + 3 = -11x + 283.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 14"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 3x + 2 = -8x - 185.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -17"}]}
+{"messages": [{"role": "user", "content": "Solve for x: 12x + 10 = 11x + 8.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = -2"}]}
+{"messages": [{"role": "user", "content": "Solve for x: -3x - 27 = -4x - 21.\nWrite the final line as \"Answer: x = <integer>\"."}, {"role": "assistant", "content": "Answer: x = 6"}]}

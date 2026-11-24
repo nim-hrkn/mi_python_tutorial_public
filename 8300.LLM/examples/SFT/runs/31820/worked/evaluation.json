@@ -1,0 +1,63 @@
+{
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 192,
+    "batch_size": 8
+  },
+  "metrics": {
+    "overall": {
+      "questions": 200,
+      "accuracy": 0.99,
+      "correct": 198,
+      "incorrect": 2,
+      "unparseable": 0,
+      "reasoning": {
+        "equivalent": 198,
+        "not_equivalent": 2,
+        "unparseable": 0,
+        "no_steps": 0
+      },
+      "steps": {
+        "equivalent": 483,
+        "not_equivalent": 2,
+        "unparseable": 0
+      }
+    },
+    "one_side": {
+      "questions": 100,
+      "accuracy": 0.99,
+      "correct": 99,
+      "incorrect": 1,
+      "unparseable": 0,
+      "reasoning": {
+        "equivalent": 99,
+        "not_equivalent": 1,
+        "unparseable": 0,
+        "no_steps": 0
+      },
+      "steps": {
+        "equivalent": 188,
+        "not_equivalent": 1,
+        "unparseable": 0
+      }
+    },
+    "both_sides": {
+      "questions": 100,
+      "accuracy": 0.99,
+      "correct": 99,
+      "incorrect": 1,
+      "unparseable": 0,
+      "reasoning": {
+        "equivalent": 99,
+        "not_equivalent": 1,
+        "unparseable": 0,
+        "no_steps": 0
+      },
+      "steps": {
+        "equivalent": 295,
+        "not_equivalent": 1,
+        "unparseable": 0
+      }
+    }
+  }
+}
