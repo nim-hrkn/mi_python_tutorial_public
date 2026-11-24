@@ -1,0 +1,44 @@
+[dependency-groups]
+notebooks = [
+    "ipykernel",
+    "ipython",
+    "jupyterlab>=4.6,<5",
+    "matplotlib",
+    "mlxtend",
+    "networkx",
+    "numba",
+    "numpy",
+    "pandas>=2.3.3,<3",
+    "pillow",
+    "plotly",
+    "progressbar2",
+    "pycirclize",
+    "pymatgen",
+    "scikit-image",
+    "scikit-learn==1.9.1",
+    "scipy",
+    "seaborn",
+    "sympy",
+]
+
+bayesian = [
+    { include-group = "notebooks" },
+    "arviz>=1.3,<2",
+    "arviz-plots>=1.3,<2",
+    "packaging",
+    "pymc>=6.4,<7",
+]
+
+pytorch = [
+    { include-group = "notebooks" },
+    "torch==2.15.0",
+    "torch-geometric==2.8.1",
+    "torchvision==0.29.2",
+]
+
+all = [
+    { include-group = "bayesian" },
+    { include-group = "pytorch" },
+    "rdkit",
+    "tqdm",
+]

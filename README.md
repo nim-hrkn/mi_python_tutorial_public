@@ -59,40 +59,43 @@ Miniforge は、初期状態で conda-forgeチャンネル（オープンソー�
 商用・教育・個人利用を問わず 完全に無料 で使用できます。
 condaコマンドを用いて追加packageをインストールすることで、Miniconda/Anacondaとほぼ同等の環境構築が可能です。
 
-## 追加インストール
+## 教材の依存パッケージをまとめてインストールする
 
-Anacondaはcondaを用いて追加パッケージをインストールできます。
+GitHub から取得した教材のルートで実行します。以下は Miniforge を使う例です。`pip install --group` には pip 25.1 以降が必要です。
 
-### 重要事項
+```bash
+git clone https://github.com/nim-hrkn/mi_python_tutorial_public.git
+cd mi_python_tutorial_public
+conda create -n mi-tutorial python=3.14 "pip>=25.1"
+conda activate mi-tutorial
+python -m pip install --group notebooks
+python -m pip check
+python -m ipykernel install --sys-prefix --name mi-tutorial --display-name "Python 3.14 (mi-tutorial)"
+python -m jupyterlab
+```
 
-** scikit-learnのクラス関数が大きく変更されています。
-version 1.8.0にて動作確認しています。**
+JupyterLab で `0000.0010.Contents.ipynb` を開き、カーネルに **Python 3.14 (mi-tutorial)** を選びます。必要な章に応じて、同じ環境で追加のグループを導入できます。
 
-### pymatgen
+| グループ | 内容 |
+| --- | --- |
+| `notebooks` | JupyterLab と、回帰・分類・クラスタリングなどの共通パッケージ |
+| `bayesian` | 共通パッケージと PyMC・ArviZ |
+| `pytorch` | 共通パッケージと PyTorch・torchvision・PyTorch Geometric |
+| `all` | 上記すべてと、スケーリング則の章で使う RDKit など |
 
-以下を参照
+全章を使う場合は `python -m pip install --group all` を実行します。`6600.scaling_law` は PyMC と PyTorch Geometric の両方を使うので、`all` を選びます。
 
-https://pymatgen.org/installation.html
+### Linux x86_64 で CPU 版 PyTorch を使う
 
-condaを用いる場合のinstall法が書いてあります。
+CPU 版の wheel を先に公式インデックスから導入し、その後で依存グループを入れます。
 
+```bash
+python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch==2.15.0+cpu" "torchvision==0.29.2+cpu"
+python -m pip install --group all
+python -m pip check
+```
 
-### pytorch
-
-以下を参照
-
-https://pytorch.org/get-started/locally/
-
-
-### 他のpackage
-
-各スクリプトに必要パッケージが記載してあります。
-
-## jupyter labの動かし方
-
-以下に説明があります。
-
-https://www.youtube.com/watch?v=WIw_xR6zFjs
+動作確認に使用したバージョンは scikit-learn **1.9.1**、PyTorch **2.15.0**、torchvision **0.29.2**、PyTorch Geometric **2.8.1** です。`pyproject.toml` でこれらのバージョンを固定しています。GPU を使う場合や他の OS では、環境に合った取得先を [PyTorch の公式インストール案内](https://pytorch.org/get-started/locally/)で確認してください。
 
 ## 大規模言語モデル
 
